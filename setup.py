@@ -10,7 +10,7 @@ except ImportError:
 
 setup(
     name="chunkify",
-    version="1.0",
+    version="1.1",
     description=" Python module to split an iterable into a certain number of chunks",
     author="Ben Hearsum",
     author_email="ben@hearsum.ca",

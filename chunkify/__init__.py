@@ -15,7 +15,7 @@ def chunkify(things, this_chunk, chunks):
     if big_chunks:
         if this_chunk <= big_chunks:  # this_chunk is a big chunk
             size += 1
-            start = size * (this_chunk-1)
+            start += this_chunk-1
         else:
             start += big_chunks  # account for the extra 1 'thing' in each big_chunk
 
